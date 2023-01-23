@@ -1,0 +1,19 @@
+{
+  "name": "javascriptnavbar",
+  "version": "1.0.0",
+  "description": "Website javascript30",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass":"node-sass sass/main.scss css/style.css -w"
+  },
+  "keywords": [
+    "js",
+    "web",
+    "site"
+  ],
+  "author": "Emirhan Kumus",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
