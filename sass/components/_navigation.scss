@@ -1,0 +1,19 @@
+.nav {
+    min-height: 5rem;
+
+    &__list {
+        width: 40%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__link {
+        color: #6C6C6C;
+        font-size: 1rem;
+
+        &:hover {
+            color: black;
+        }
+    }
+
+}
