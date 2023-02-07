@@ -7,9 +7,11 @@
     
 
     &__list {
-        
+        width: 40%;
         display: flex;
-        gap: 4rem;
+        justify-content: space-between;
+        align-items: center;
+        
     }
 
     &__item {
