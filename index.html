@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Javascript30 Navbar</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,21 +13,32 @@
 <body>
     <div class="wrapper">
         <header class="header">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container nav mt-4 d-flex justify-content-between">
-                    <a class="nav__logo" href="index.html"><img src="Assets/Logo.svg" alt=""></a>
-                    <ul class="nav__list navbar-nav mb-lg-0">
-                        <li><a class="nav__link" href="#">Products</a></li>
-                        <li><a class="nav__link" href="#">Challenges</a></li>
-                        <li><a class="nav__link"href="#">Resources</a></li>
-                        <li><a class="nav__link"href="#">Other Links</a></li>
-                    </ul>
-                    <div class="d-flex align-items-center">
-                        <a class="nav__link me-3" href="#">Sign in</a>
-                        <button class="button">Try for free</button>
-                    </div> 
+            <div class="navbar nav">
+                <a href="#">
+                    <img src="Assets/Logo.svg" alt="logo">
+                </a>
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Products</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Challenges</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Resources</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Other Links</a>
+                    </li>
+                </ul>
+                <div class="nav__sign-in">
+                    <a href="#">Sign in</a>
+                    <a href="#">
+                        <button type="submit" class="button">Try for free</button>
+                    </a>
                 </div>
-            </nav>
+                
+            </div>
         </header>
     </div>
 
@@ -37,6 +47,7 @@
 
 
     
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+
+<script src="main.js"></script>
 </body>
 </html>
