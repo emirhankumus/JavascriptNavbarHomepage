@@ -32,20 +32,29 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center; }
+  @media only screen and (max-width: 1600px) {
+    .nav {
+      width: 90%; } }
+  @media only screen and (max-width: 1200px) {
+    .nav {
+      width: 96%; } }
   .nav__list {
     width: 40%;
     display: flex;
     justify-content: space-between;
     align-items: center; }
+    @media only screen and (max-width: 1200px) {
+      .nav__list {
+        width: 50%; } }
   .nav__link {
     color: black;
-    opacity: 0.65;
+    opacity: 0.8;
     transition: 0.7s ease; }
     .nav__link:hover {
       opacity: 1; }
   .nav .nav__sign-in a:first-child {
     color: black;
-    opacity: 0.65;
+    opacity: 0.8;
     margin-right: 1.25rem;
     transition: 0.7s ease; }
     .nav .nav__sign-in a:first-child:hover {
@@ -61,32 +70,56 @@ li {
 
 /* Hamburger menu end */
 .sec-contents {
-  background-color: yellow;
-  height: 82.7vh;
+  min-height: 35rem;
   margin-top: 3rem;
   display: flex;
   justify-content: center; }
   .sec-contents__left {
-    background-color: green;
-    width: 45%;
-    height: 100%; }
+    width: 45%; }
+    @media only screen and (max-width: 1600px) {
+      .sec-contents__left {
+        width: 55%; } }
+    @media only screen and (max-width: 1300px) {
+      .sec-contents__left {
+        width: 65%; } }
   .sec-contents__title {
     font-weight: bold;
-    font-size: 4.5rem; }
+    font-size: 4rem;
+    margin-top: 5rem; }
     .sec-contents__title span {
       color: orange; }
   .sec-contents__text {
-    font-size: 1.2rem;
     line-height: 1.5;
     padding: 1.3rem 0;
-    opacity: 0.65; }
+    opacity: 0.8;
+    font-size: 1.2rem; }
   .sec-contents img {
     margin-top: 2rem;
-    margin: 0 0.5rem;
-    background-color: white; }
+    margin: 0 0.5rem; }
     .sec-contents img:first-child {
-      margin-left: 2rem; }
+      margin-left: 1rem; }
   .sec-contents__right {
-    background-color: orange;
-    width: 25%;
-    height: 100%; }
+    width: 25%; }
+    @media only screen and (max-width: 1600px) {
+      .sec-contents__right {
+        width: 30%; } }
+    @media only screen and (max-width: 1300px) {
+      .sec-contents__right {
+        width: 32%; } }
+  .sec-contents__hero {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0; }
+
+.footer {
+  min-height: 15rem;
+  text-align: center; }
+  .footer__text {
+    padding: 3rem 0 1rem 0;
+    color: black;
+    opacity: 0.8;
+    font-size: 1.2rem; }
+  .footer img {
+    width: 15rem;
+    margin-right: 3rem; }
